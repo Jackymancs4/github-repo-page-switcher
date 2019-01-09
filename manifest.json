@@ -1,0 +1,28 @@
+{
+
+  "description": "Adds a page action to easily switch from a Github repo to its Pages site.",
+  "manifest_version": 2,
+  "name": "Github Repo to Pages Switcher",
+  "version": "1.0.0",
+  "homepage_url": "",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icons/github.svg",
+    "show_matches": [
+      "https://*.github.io/*",
+      "https://*.github.com/*"
+    ]
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://*.github.io/*",
+    "https://*.github.com/*"
+  ]
+
+}
