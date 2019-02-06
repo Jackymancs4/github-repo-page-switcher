@@ -21,7 +21,7 @@ function isGithubComUrl(url) {
 
 function isGithubIoUrl(url) {
   const parsedUrl = new URL(url);
-  if (parsedUrl.host.endsWith("github.io")) {
+  if (parsedUrl.host.endsWith("github.io") || parsedUrl.host == "pages.github.com") {
     return true;
   } else {
     return false;
@@ -57,6 +57,9 @@ function ioToCom(url) {
 function comToIo(url) {
   const parsedUrl = new URL(url);
   const profileName = parsedUrl.pathname.split("/")[1];
+
+  if (profileName == '')
+    return "https://pages.github.com/"
 
   return ("https://" + profileName + ".github.io/" + (
     parsedUrl.pathname.split("/")[2] ?
