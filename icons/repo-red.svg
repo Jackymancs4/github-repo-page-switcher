@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<rect x="6" y="65" width="32" height="80"/>
+<rect x="6" y="161" width="32" height="32"/>
+<path d="M128,144h-16v-16h16V144z M128,96h-16v16h16V96z M128,64h-16v16h16V64z M128,32h-16v16h16V32z M256,16v192
+	c0,8.8-7.2,16-16,16h-80v32l-24-24l-24,24v-32H80c-8.8,0-16-7.2-16-16V16c0-8.8,7.2-16,16-16h160C248.8,0,256,7.2,256,16z M240,176
+	H80v32h32v-16h48v16h80V176z M240,16H96v144h144V16z"/>
+</svg>
